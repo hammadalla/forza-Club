@@ -5,7 +5,6 @@ import UnderBanner from '../Sections/underBanner/UnderBanner'
 import Programcard from '../Sections/ourprogram/Programcard'
 import Trainer from '../Sections/trainer/Trainer'
 import ContactUs from '../Sections/contactUs/ContactUs'
-import Footer from '../Sections/Footer/Footer'
 export default function Home() {
 
     return (
@@ -17,7 +16,6 @@ export default function Home() {
             <Programcard />
             <Trainer />
             <ContactUs />
-            <Footer/>
 
         </>
     )
