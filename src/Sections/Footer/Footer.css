@@ -1,0 +1,15 @@
+.logo-footer {
+    width: 100px;
+}
+
+.footer {
+    background: #0F168A;
+    background: radial-gradient(circle at center, #1D4890, #161E33, #000), url(../../assets/footer-bg.png);
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+
+.copyright {
+    font-size: 12px;
+}

@@ -1,0 +1,65 @@
+.about-section {
+    background-color: #F2F2F2;
+}
+
+.AboutImg {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.AboutImg::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1D4890;
+    content: '';
+    z-index: -1;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+}
+
+
+
+.AboutImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+.rev:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.rev:nth-child(even) .AboutImg::after {
+    background-color: #F3B213
+}
+
+.bg-about {
+    background-image: url(../../assets/bottom_left_pink_cover.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
