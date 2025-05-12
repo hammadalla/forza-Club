@@ -15,7 +15,13 @@
 }
 
 /* Hover effect on links and buttons */
-.hovered-element:hover ~ #custom-cursor {
+.hovered-element:hover~#custom-cursor {
   transform: translate(-50%, -50%) scale(1.8);
   background-color: rgba(0, 0, 0, 0.9);
+}
+
+@media(max-width: 992px) {
+  #custom-cursor {
+    display: none;
+  }
 }
